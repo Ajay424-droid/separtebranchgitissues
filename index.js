@@ -19,7 +19,7 @@ def about():
 @app.route("/data", methods=["POST"])
 def get_data():
     data = request.json
-    name = data.get("name")
+    name = data.get("Ajay")
     return jsonify({
         "message": f"Hello {name}, data received successfully"
     })
