@@ -1,6 +1,6 @@
 import express from "express";
 import mysql from "mysql";
-import cors from "cors";
+import cors from "test";
 import morgan from "morgan";
 import dotenv from "dotenv";
 
